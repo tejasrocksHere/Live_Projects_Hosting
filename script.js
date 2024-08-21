@@ -70,6 +70,14 @@ const projectsData = {
       link: "https://tejasorousgame.netlify.app/",
       emoji: "🦖",
     },
+    {
+      title: "TM1 Review",
+      description:
+        "A fun Personal Movie/Tv-Shows review site where i myself write review about movies",
+      image: "static/tm1.png",
+      link: "https://tm1review.netlify.app/",
+      emoji: "🎥",
+    },
   ],
 };
 
