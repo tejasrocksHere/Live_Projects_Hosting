@@ -15,6 +15,14 @@ const projectsData = {
       emoji: "🎓",
     },
     {
+      title: "Real time chatapplication",
+      description:
+        "Experience global communication with our real-time chat application, built using React for a dynamic and responsive user interface and Supabase as the backend database",
+      image: "static/chat.png",
+      link: "https://treal-time-chatapp.netlify.app/",
+      emoji: "🌐",
+    },
+    {
       title: "Portfolio Website",
       description:
         "My personal portfolio showcasing all my live projects. Designed to highlight my skills and creativity.",
