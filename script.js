@@ -86,6 +86,14 @@ const projectsData = {
       link: "https://tm1review.netlify.app/",
       emoji: "🎥",
     },
+    {
+      title: "Healthy-fy - BMI Finder",
+      description:
+        "A web application that accurately calculates your BMI and provides personalized health insights",
+      image: "static/bmi.png",
+      link: "https://bmi-finder-healthyfy.netlify.app/",
+      emoji: "🎥",
+    },
   ],
 };
 
