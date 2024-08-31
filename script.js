@@ -79,13 +79,30 @@ const projectsData = {
       emoji: "🦖",
     },
     {
+      title: "Calculator",
+      description:
+        "A simple and sleek online calculator for quick and easy calculations.",
+      image: "static/calculator.png",
+      link: "https://free-web-calculator.netlify.app/",
+      emoji: "📱",
+    },
+    {
       title: "TM1 Review",
       description:
-        "A fun Personal Movie/Tv-Shows review site where i myself write review about movies",
+        "A personal site where I share my reviews on movies and TV shows.",
       image: "static/tm1.png",
       link: "https://tm1review.netlify.app/",
       emoji: "🎥",
     },
+    {
+      title: "StopWatch",
+      description:
+        "A straightforward and user-friendly stopwatch for tracking time.",
+      image: "static/stopwatch.png",
+      link: "https://stopwatch-free.netlify.app/",
+      emoji: "🕛",
+    },
+
     {
       title: "Healthy-fy - BMI Finder",
       description:
