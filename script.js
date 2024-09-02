@@ -2,6 +2,10 @@ AOS.init({
   duration: 1200,
   once: true,
 });
+document.getElementById("mobile-menu").addEventListener("click", function () {
+  const navList = document.getElementById("nav-list");
+  navList.classList.toggle("active");
+});
 
 // JavaScript code to dynamically create project cards
 const projectsData = {
@@ -29,6 +33,14 @@ const projectsData = {
       image: "static/jscompiler.png",
       link: "https://add-free-javascript-compiler.netlify.app/",
       emoji: "🖱️",
+    },
+    {
+      title: "TejaTube",
+      description:
+        "A basic YouTube clone with search functionality. Browse and watch videos just like on YouTube.",
+      image: "static/youtube-clone.png",
+      link: "https://tejatube.netlify.app/",
+      emoji: "🎥",
     },
     {
       title: "Portfolio Website",
@@ -62,14 +74,7 @@ const projectsData = {
       link: "https://my-todo-list-959.netlify.app/",
       emoji: "📝",
     },
-    {
-      title: "TejaTube",
-      description:
-        "A basic YouTube clone with search functionality. Browse and watch videos just like on YouTube.",
-      image: "static/youtube-clone.png",
-      link: "https://tejatube.netlify.app/",
-      emoji: "🎥",
-    },
+
     {
       title: "Bus Seat Finder",
       description:

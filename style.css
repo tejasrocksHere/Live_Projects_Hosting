@@ -206,3 +206,59 @@ footer a:hover {
     padding: 0.5rem 1rem;
   }
 }
+
+/* Base styles (same as before) */
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.menu-toggle .bar {
+  height: 3px;
+  width: 25px;
+  background-color: #eeeeee;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #201e43;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  nav ul li a {
+    padding: 10px;
+    display: block;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+}
