@@ -26,7 +26,7 @@ const projectsData = {
       title: "Free Javascript compiler and Code Note Maker",
       description:
         "This project is a minimalistic, ad-free JavaScript compiler integrated with CodeMirror, providing a clean and intuitive environment for coding in JavaScript. The editor comes with syntax highlighting, auto-completion, and multiple themes, allowing users to write, run, and save their JavaScript code efficiently.",
-      image: "jscompiler.png",
+      image: "static/jscompiler.png",
       link: "https://add-free-javascript-compiler.netlify.app/",
       emoji: "🖱️",
     },
