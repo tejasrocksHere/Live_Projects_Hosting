@@ -35,6 +35,22 @@ const projectsData = {
       emoji: "🖱️",
     },
     {
+      title: "LastBenchMate Broadcasting Platform",
+      description:
+        "It is a **'zero internet, low-latency'** platform that to help students in large classrooms by broadcasting the content written on the board directly to their devices. Utilizing React.js, Node.js, and Express, the platform ensures real-time broadcasting with clear, accessible visuals. This assists students with low vision to stay updated with classroom lessons and notes efficiently.",
+      image: "static/lastbencth.png",
+      link: "https://drive.google.com/file/d/1hY2w3_NZFB71FqgOAFbXB_YjBgJp3Uat/view",
+      emoji: "📺",
+    },
+    {
+      title: "VisioAid Exam System",
+      description:
+        "An mcq based exam system specifically developed for visually impaired individuals, using React.js, Node.js, and a custom keyboard built with Raspberry Pi. It incorporates voice feedback, custom navigation controls, and a seamless interface to assist users in completing exams independently. The project aims to empower visually impaired students to take MCQ-based tests with ease and precision.",
+      image: "static/exam.png",
+      link: "https://drive.google.com/file/d/1nWhGEQSolyc3JBn7cTOfexchiarfvt6N/view",
+      emoji: "📝",
+    },
+    {
       title: "TejaTube",
       description:
         "A basic YouTube clone with search functionality. Browse and watch videos just like on YouTube.",
