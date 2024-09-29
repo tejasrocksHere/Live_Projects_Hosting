@@ -66,13 +66,14 @@ const projectsData = {
       link: "https://tejas-mundhe-portfolio-finalweb.netlify.app/",
       emoji: "🌐",
     },
+
     {
-      title: "Tic-Tac-Toe",
+      title: "Password Generator",
       description:
-        "Classic tic-tac-toe game with a simple interface. Play against the computer and enjoy the fun!",
-      image: "static/tiktaktoe.png",
-      link: "https://tic-tac-toe-tmundhe.netlify.app/",
-      emoji: "❌⭕",
+        "Password Generator created using react + react hooks (useState,Effects,useCallback) to optimse the application",
+      image: "static/password.png",
+      link: "https://password-generator433.netlify.app/",
+      emoji: "🔑",
     },
     {
       title: "Housewarming Invitation",
@@ -106,6 +107,14 @@ const projectsData = {
       image: "static/dino-game.png",
       link: "https://tejasorousgame.netlify.app/",
       emoji: "🦖",
+    },
+    {
+      title: "Tic-Tac-Toe",
+      description:
+        "Classic tic-tac-toe game with a simple interface. Play against the computer and enjoy the fun!",
+      image: "static/tiktaktoe.png",
+      link: "https://tic-tac-toe-tmundhe.netlify.app/",
+      emoji: "❌⭕",
     },
     {
       title: "Calculator",
