@@ -51,6 +51,16 @@ const projectsData = {
       emoji: "📝",
     },
     {
+      title: "TM1 Screen Recorder",
+      description:
+        `A user-friendly screen recording application (Only Desinged for chrome in PC) that allows users to easily capture their screen with or without audio. Developed using JavaScript, this tool features intuitive buttons for starting and stopping recordings, along with seamless downloads of recorded videos. The project empowers users to create high-quality screen recordings effortlessly. Used HTML5 CSS3 JavaScript
+, Chrome API `,
+      image: "static/screen.png",
+      link: "https://github.com/tejasrocksHere/Tm1-Screen-Recorder/tree/main", 
+      emoji: "🎥✨",
+    },
+    
+    {
       title: "TejaTube",
       description:
         "A basic YouTube clone with search functionality. Browse and watch videos just like on YouTube.",
