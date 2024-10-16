@@ -52,14 +52,13 @@ const projectsData = {
     },
     {
       title: "TM1 Screen Recorder",
-      description:
-        `A user-friendly screen recording application (Only Desinged for chrome in PC) that allows users to easily capture their screen with or without audio. Developed using JavaScript, this tool features intuitive buttons for starting and stopping recordings, along with seamless downloads of recorded videos. The project empowers users to create high-quality screen recordings effortlessly. Used HTML5 CSS3 JavaScript
+      description: `A user-friendly screen recording application (Only Desinged for chrome in PC) that allows users to easily capture their screen with or without audio. Developed using JavaScript, this tool features intuitive buttons for starting and stopping recordings, along with seamless downloads of recorded videos. The project empowers users to create high-quality screen recordings effortlessly. Used HTML5 CSS3 JavaScript
 , Chrome API `,
       image: "static/screen.png",
-      link: "https://github.com/tejasrocksHere/Tm1-Screen-Recorder/tree/main", 
+      link: "https://github.com/tejasrocksHere/Tm1-Screen-Recorder/tree/main",
       emoji: "🎥✨",
     },
-    
+
     {
       title: "TejaTube",
       description:
@@ -67,6 +66,14 @@ const projectsData = {
       image: "static/youtube-clone.png",
       link: "https://tejatube.netlify.app/",
       emoji: "🎥",
+    },
+    {
+      title: "Agro-Help",
+      description:
+        "An agricultural assistance platform that provides resources, market information, and real-time data to help farmers make informed decisions and improve crop yields.",
+      image: "static/agro-help.png",
+      link: "https://agro-helper.netlify.app/",
+      emoji: "🌾",
     },
     {
       title: "Portfolio Website",
